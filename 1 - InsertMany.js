@@ -37,6 +37,13 @@ db.getCollection("employees").insertMany([
     age: 22,
     salary: 45000,
   },
+  {
+    name: "John Lennon",
+    department: "Human Resources",
+    age: 38,
+    salary: 72000,
+    isRockstar: true,
+  },
 ]);
 
 db.getCollection("departments").insertMany([
